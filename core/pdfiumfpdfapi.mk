@@ -4,6 +4,7 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE:= libpdfiumfpdfapi
 
+LOCAL_CLANG := false
 LOCAL_ARM_MODE := arm
 LOCAL_NDK_STL_VARIANT := gnustl_static
 
