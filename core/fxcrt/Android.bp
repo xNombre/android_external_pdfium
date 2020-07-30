@@ -2,7 +2,7 @@ cc_library_static {
     name: "libpdfium-fxcrt",
     defaults: ["pdfium-core"],
 
-    visibility: ["//external/pdfium:__subpackages__"],
+    //visibility: ["//external/pdfium:__subpackages__"],
 
     export_shared_lib_headers: [
         "libandroidicu",

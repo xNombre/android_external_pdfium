@@ -2,7 +2,7 @@ cc_library_static {
     name: "libpdfium-fpdfsdk",
     defaults: ["pdfium-core"],
 
-    visibility: ["//external/pdfium:__subpackages__"],
+    //visibility: ["//external/pdfium:__subpackages__"],
 
     header_libs: [
         "libpdfium-constants",
